@@ -144,3 +144,8 @@ Esta función flecha es una forma más corta de:
 
 */
 console.log(resta(5,3));
+
+/*
+ * 3 Tipos de funciones principales
+ * Anónimas, flecha y tradicionales
+ */
