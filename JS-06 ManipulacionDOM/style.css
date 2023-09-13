@@ -1,0 +1,40 @@
+/*Estilos generales*/
+body {
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    background-color: rgb(255, 255, 248);
+}
+
+/*Estilos para mi imagen*/
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+#titulo {
+    margin-bottom: 20px;
+    font-weight: 600;
+    color: #01255c;
+}
+
+#containerPadre {
+    border: 2px solid #0d6efd;
+    border-radius: 15px;
+    padding: 20px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.form-group label{
+    margin-bottom:5px;
+}
+
+#mensajeConfirmacion{
+    color: rgb(0, 177, 0);
+    font-weight: 600;
+    text-decoration: underline;
+}
+
+#contenedorTarjetas{
+    margin-top: 30px;
+}
