@@ -62,7 +62,7 @@ function generarTarjetaPaciente(paciente){
 
     //Crear
     let tarjetaDiv = document.createElement("div"); //crea un container para mi tarjeta
-    tarjetaDiv.className = "col"; //le especifico que es una columna
+    tarjetaDiv.className = "col-sm-12 col-md-6 col-lg-4"; //le especifico que es una columna
 
     //Crear el contenido de la tarjeta
     tarjetaDiv.innerHTML = `
