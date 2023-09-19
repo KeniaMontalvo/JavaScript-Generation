@@ -187,3 +187,31 @@ console.log(pacienteJSON);
 
 //Si mando un JSON al servidor, lo stringifeo
 //Si recibo un string del servidor, lo parseo
+
+
+function generarTarjetaProducto(producto){
+    //crear elemento
+    createElement(img);
+    img.src = producto.image;
+
+}
+
+//Método POST para enviar un nuevo producto a nuestra BD de la FakeStoreAPI
+
+/*
+fetch('https://fakestoreapi.com/products',{ //endpoint
+            method:"PUT", //especificar el tipo de metodo
+            body:JSON.stringify( //instruccion para serializar el cuerpo de mi solicitud (para la interpretacion del servidor)
+                {
+                    id: 1,
+                    title: inputTitulo.value,
+                    price: inputPrecio.value,
+                    description: inputDescripcion.value,
+                    image: inputImagen.value,
+                    category: inputCategoria.value
+                }
+            )
+        })
+            .then(res=>res.json()) //metodo para la respuesta (saber que mi producto llego con bien al servidor)
+            .then(json=>console.log(json))//impresion en consola para revisar la info
+*/
