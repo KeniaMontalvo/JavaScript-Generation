@@ -254,4 +254,4 @@ let alumno3 = new alumno("Felipe", 6);
 //Invocando métodos
 alumno1.evaluacion(alumno1.nota); //reprobado
 alumno2.evaluacion(alumno2.nota); //aprobado
-alumno3.evaluacion(alumno3.nota); //aprobado
+alumno3.evaluacion(alumno3.nota); //aprobado 
